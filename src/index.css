@@ -81,7 +81,7 @@
 	@apply bg-blueClr-100 bg-opacity-10 border-0;
 }
 .btn-disabled {
-	@apply bg-grayClr-50 text-grayClr-75 hover:bg-transparent;
+	@apply bg-grayClr-50 text-grayClr-75 hover:bg-transparent hover:cursor-not-allowed;
 }
 .btn-hover-disabled {
 	@apply bg-transparent text-grayClr-75;

@@ -1,6 +1,12 @@
 import LocalGroceryStoreOutlinedIcon from "@mui/icons-material/LocalGroceryStoreOutlined";
 const Button = props => {
+	const disableBtnProps = {};
 	let classValue = ``;
+	if (props.disabled) {
+		disableBtnProps.disabled = true;
+	} else {
+		disableBtnProps.disabled = false;
+	}
 	props.HoverStatus
 		? props.variant
 			? (classValue = `btn btn-${props.variant} btn-hover-${props.variant}`)
@@ -29,7 +35,7 @@ const Button = props => {
 		? (classValue = `btn btn-${props.color}`)
 		: (classValue = `btn btn-hover`);
 	return (
-		<button type="button" className={`${classValue}`}>
+		<button type="button" className={`${classValue}`} {...disableBtnProps}>
 			{!props.disabled &&
 				!props.variant &&
 				!props.disabledShadow &&
