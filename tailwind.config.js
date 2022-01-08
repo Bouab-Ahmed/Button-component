@@ -40,9 +40,6 @@ module.exports = {
 				// Complex site-specific row configuration
 				layout: "50px minmax(95px, 1fr)",
 			},
-			gridTemplateColumns: {
-				main: "20% minmax(0px, 1fr)",
-			},
 		},
 	},
 	plugins: [],
