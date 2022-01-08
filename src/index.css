@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@tailwind base;
+@tailwind components;
+#root {
+	@apply p-0 m-0 box-border flex select-none;
+}
+.nav-container {
+	@apply bg-bgnavbar flex flex-col w-1/5 min-h-full;
+}
+.nav-container h1 {
+	@apply block h-4 ml-10 mb-28 mt-12 font-bold;
+}
+.nav-container h1 span {
+	@apply text-orange-600;
+}
+.nav-content {
+	@apply flex flex-col items-start content-start h-full w-auto text-sm font-medium text-stone-400 ml-10;
+}
+.nav-item {
+	@apply py-5 cursor-pointer hover:text-nhover flex w-full;
+}
+.nav-item svg {
+	@apply h-5 w-5 mr-2;
+}
+/* containers */
+.container {
+	@apply flex justify-start w-full;
+}
+.container .normal-status {
+	@apply w-40 mr-37 last-of-type:mr-0;
+}
+.icons-container > .start-icon {
+	@apply w-fit mr-20;
+}
+.sm-btn,
+.md-btn {
+	@apply mr-24;
+}
+.color-container {
+	@apply grid w-full grid-cols-4 gap-y-4;
+}
+.sub-clr-container {
+	@apply place-items-end;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+.buttons {
+	@apply ml-20 mt-15 grid grid-rows-layout gap-y-11 w-full;
+}
+.buttons h1 {
+	@apply font-main font-semibold text-grayClr-100 text-2xl leading-9 h-0;
+}
+.Span {
+	@apply text-xs text-grayClr-500 h-0;
+}
+/* hover span */
+.hover-span {
+	@apply text-xs text-grayClr-600 font-normal;
+}
+/* buttons types */
+.btn {
+	@apply flex items-center justify-around px-4 mt-2 leading-9 w-20 h-9 bg-grayClr-50 text-grayClr-200 rounded-md
+    font-semibold drop-shadow-sm;
+}
+.btn-hover {
+	@apply hover:drop-shadow-md hover:bg-grayClr-700;
+}
+.btn-hover-default {
+	@apply drop-shadow-md bg-grayClr-700;
+}
+.btn-outline {
+	@apply bg-white border border-blueClr-100 text-blueClr-100 filter-none hover:bg-blueClr-100 hover:bg-opacity-10;
+}
+.btn-hover-outline {
+	@apply bg-blueClr-100 bg-opacity-10;
+}
+.btn-text {
+	@apply text-blueClr-100 bg-transparent border-0 hover:bg-blueClr-100 hover:bg-opacity-10 hover:border-0;
+}
+.btn-hover-text {
+	@apply bg-blueClr-100 bg-opacity-10 border-0;
+}
+.btn-disabled {
+	@apply bg-grayClr-50 text-grayClr-75 hover:bg-transparent;
+}
+.btn-hover-disabled {
+	@apply bg-transparent text-grayClr-75;
+}
+.btn-disabledShadow {
+	@apply bg-blueClr-100 text-white;
+}
+.btn-small-size {
+	@apply w-16 h-8;
+}
+.btn-large-size {
+	@apply w-24 h-10;
+}
+.btn-icon {
+	@apply w-28 bg-blueClr-200 text-white text-sm;
+}
+.btn-primary {
+	@apply bg-blueClr-200 text-white hover:bg-blueClr-300;
+}
+.btn-hover-primary {
+	@apply bg-blueClr-300 self-end;
+}
+.btn-secondary {
+	@apply bg-grayClr-300 w-28 text-white hover:bg-grayClr-400;
+}
+.btn-hover-secondary {
+	@apply bg-grayClr-400 self-end;
+}
+.btn-danger {
+	@apply bg-redClr-100 text-white hover:bg-redClr-200;
+}
+.btn-hover-danger {
+	@apply bg-redClr-200 self-end;
+}
+.footer {
+	@apply text-sm font-bold text-grayClr-75 my-8;
+}
+@tailwind utilities;
