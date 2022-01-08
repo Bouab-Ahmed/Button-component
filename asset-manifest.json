@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Button-component/static/css/main.7042f8ba.css",
-    "main.js": "/Button-component/static/js/main.b2ad47f4.js",
+    "main.css": "/Button-component/static/css/main.0f72a388.css",
+    "main.js": "/Button-component/static/js/main.f981d7ca.js",
     "static/js/787.d733493a.chunk.js": "/Button-component/static/js/787.d733493a.chunk.js",
+    "static/media/coming-soon.png": "/Button-component/static/media/coming-soon.db45319f25a2fc700561.png",
     "index.html": "/Button-component/index.html",
-    "main.7042f8ba.css.map": "/Button-component/static/css/main.7042f8ba.css.map",
-    "main.b2ad47f4.js.map": "/Button-component/static/js/main.b2ad47f4.js.map",
+    "main.0f72a388.css.map": "/Button-component/static/css/main.0f72a388.css.map",
+    "main.f981d7ca.js.map": "/Button-component/static/js/main.f981d7ca.js.map",
     "787.d733493a.chunk.js.map": "/Button-component/static/js/787.d733493a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7042f8ba.css",
-    "static/js/main.b2ad47f4.js"
+    "static/css/main.0f72a388.css",
+    "static/js/main.f981d7ca.js"
   ]
 }
