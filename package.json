@@ -1,8 +1,8 @@
 {
-	"homepage": "https://bouab-ahmed.github.io/Button-component/",
 	"name": "buttons-component",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://bouab-ahmed.github.io/Button-component/",
 	"dependencies": {
 		"@emotion/react": "^11.7.1",
 		"@emotion/style": "^0.8.0",
