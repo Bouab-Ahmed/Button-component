@@ -35,9 +35,9 @@ module.exports = {
 			},
 			fontFamily: {
 				main: ["Poppins", "sans - serif"],
+				input: ["Ubuntu Mono", "sans - serif"],
 			},
 			gridTemplateRows: {
-				// Complex site-specific row configuration
 				layout: "50px minmax(95px, 1fr)",
 			},
 		},

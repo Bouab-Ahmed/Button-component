@@ -51,7 +51,7 @@ const Navbar = () => {
 					</svg>
 					Buttons
 				</Link>
-				<Link to="/Inputs" aria-current="true" className="nav-item">
+				<Link to="/inputs" aria-current="true" className="nav-item">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 						<path
 							strokeLinecap="round"

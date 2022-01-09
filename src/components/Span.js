@@ -1,5 +1,7 @@
 const Span = props => {
-	return props.itHovred ? (
+	return props.fromInput ? (
+		<span className="input-span">&lt;Input &#47;&gt;</span>
+	) : props.itHovred ? (
 		<span className="hover-span">&amp;hover &amp;focus</span>
 	) : (
 		<span className="Span">

@@ -4,7 +4,7 @@ import Span from "../components/Span";
 import Footer from "../components/Footer";
 const Buttons = () => {
 	return (
-		<div className="buttons">
+		<div className="main">
 			<h1>Buttons</h1>
 			<div className="container default-container">
 				<div className="normal-status">

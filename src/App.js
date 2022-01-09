@@ -1,18 +1,17 @@
-import "./App";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Buttons from "./pages/Buttons";
+import Inputs from "./pages/Inputs";
 import Error from "./components/Error";
-import Footer from "./components/Footer";
 function App() {
 	return (
 		<Router basename={process.env.PUBLIC_URL}>
 			<Navbar />
 			<Routes>
 				<Route path="/" exact element={<Buttons />} />
+				<Route path="/inputs" element={<Inputs />} />
 				<Route path="*" element={<Error />} />
 			</Routes>
-			{/* <Footer /> */}
 		</Router>
 	);
 }
