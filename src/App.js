@@ -6,10 +6,10 @@ import Error from "./components/Error";
 import Footer from "./components/Footer";
 function App() {
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<Navbar />
 			<Routes>
-				<Route path="/" element={<Buttons />} />
+				<Route path="/" exact element={<Buttons />} />
 				<Route path="*" element={<Error />} />
 			</Routes>
 			{/* <Footer /> */}
